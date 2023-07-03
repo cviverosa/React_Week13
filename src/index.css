@@ -1,3 +1,6 @@
+
+/****************************Elemement******************************************/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,67 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h3{
+  color:white;
+  
+}
+
+label{
+  position:relative;
+}
+/**********************************Class****************************************/
+.container {
+  text-align: center;
+}
+.header3{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.label-font{
+color: white;
+}
+
+.login{
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.form-container {
+  background-color: darkslateblue;
+  border: 5px solid black;
+  padding: 10px;
+  width: 740px; 
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  .container {
+  text-align: center;
+}
+  
+ 
+  
+ 
+}
+/**********************************ID****************************************/
+#root{
+  background-color: rgb(57, 47, 107);
+}
+
+#root2{
+  background-color: rgb(73, 26, 90);
+  height: 100vh;
+  
+}
+#r2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
 }
